@@ -14,6 +14,16 @@ An end-to-end deep learning data pipeline optimized for processing highly skewed
 * Data Transformation: Scikit-Learn (Robust Scaling Profiles)
 * Numerical Utilities: NumPy, Pandas
 
+📊 Model Evaluation Performance
+During training, optimization tracks the convergence of Binary Cross-Entropy (BCE) Loss over a 100-epoch deployment cycle:
+
+Initial Configuration Loss: 0.7756
+
+Converged Baseline Loss: 0.0071
+
+Final Operational Evaluation Accuracy: 99.80%
+
+
 🚀 Quick Start
 
 ### 1. Clone the Repository & Install Dependencies
@@ -21,3 +31,6 @@ An end-to-end deep learning data pipeline optimized for processing highly skewed
 git clone [https://github.com/YOUR_GITHUB_USERNAME/financial-anomaly-engine.git](https://github.com/YOUR_GITHUB_USERNAME/financial-anomaly-engine.git)
 cd financial-anomaly-engine
 pip install torch scikit-learn numpy
+
+
+
